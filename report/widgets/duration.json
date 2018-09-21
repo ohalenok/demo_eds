@@ -1,0 +1,91 @@
+[ {
+  "uid" : "7806adadf102647",
+  "name" : "add product with empty Product Family field",
+  "time" : {
+    "start" : 1537508762200,
+    "stop" : 1537508774199,
+    "duration" : 11999
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "71cab33ba8b1b077",
+  "name" : "add product with existing name",
+  "time" : {
+    "start" : 1537508774199,
+    "stop" : 1537508785790,
+    "duration" : 11591
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "dcdf1122c2374ddc",
+  "name" : "add new product",
+  "time" : {
+    "start" : 1537508729667,
+    "stop" : 1537508762196,
+    "duration" : 32529
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "185796f6494dca1e",
+  "name" : "login with wrong password",
+  "time" : {
+    "start" : 1537508712822,
+    "stop" : 1537508721246,
+    "duration" : 8424
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "549911d30b118ccb",
+  "name" : "cancel adding new product",
+  "time" : {
+    "start" : 1537508785790,
+    "stop" : 1537508817111,
+    "duration" : 31321
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "994e29ef7a82110e",
+  "name" : "delete product",
+  "time" : {
+    "start" : 1537508817111,
+    "stop" : 1537508844196,
+    "duration" : 27085
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "823ca396f60985f8",
+  "name" : "login as admin",
+  "time" : {
+    "start" : 1537508687374,
+    "stop" : 1537508703825,
+    "duration" : 16451
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d5f91179934e200",
+  "name" : "login with empty email field",
+  "time" : {
+    "start" : 1537508721256,
+    "stop" : 1537508729667,
+    "duration" : 8411
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d2d1a0e9e3add668",
+  "name" : "login as scorer",
+  "time" : {
+    "start" : 1537508703835,
+    "stop" : 1537508712822,
+    "duration" : 8987
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

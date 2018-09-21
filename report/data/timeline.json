@@ -1,0 +1,113 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "add product with empty Product Family field",
+    "uid" : "7806adadf102647",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1537508762200,
+      "stop" : 1537508774199,
+      "duration" : 11999
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "add product with existing name",
+    "uid" : "71cab33ba8b1b077",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1537508774199,
+      "stop" : 1537508785790,
+      "duration" : 11591
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "add new product",
+    "uid" : "dcdf1122c2374ddc",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1537508729667,
+      "stop" : 1537508762196,
+      "duration" : 32529
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "login with wrong password",
+    "uid" : "185796f6494dca1e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1537508712822,
+      "stop" : 1537508721246,
+      "duration" : 8424
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "cancel adding new product",
+    "uid" : "549911d30b118ccb",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1537508785790,
+      "stop" : 1537508817111,
+      "duration" : 31321
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "delete product",
+    "uid" : "994e29ef7a82110e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1537508817111,
+      "stop" : 1537508844196,
+      "duration" : 27085
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "login as admin",
+    "uid" : "823ca396f60985f8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1537508687374,
+      "stop" : 1537508703825,
+      "duration" : 16451
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "login with empty email field",
+    "uid" : "5d5f91179934e200",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1537508721256,
+      "stop" : 1537508729667,
+      "duration" : 8411
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "login as scorer",
+    "uid" : "d2d1a0e9e3add668",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1537508703835,
+      "stop" : 1537508712822,
+      "duration" : 8987
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}

@@ -1,0 +1,73 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Failed: Wait timed out after 20003ms",
+      "children" : [ {
+        "name" : "add new product",
+        "uid" : "dcdf1122c2374ddc",
+        "parentUid" : "eb91c890660382fa7890de41134bab3a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1537508729667,
+          "stop" : 1537508762196,
+          "duration" : 32529
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eb91c890660382fa7890de41134bab3a"
+    }, {
+      "name" : "Failed: each key must be a number of string; got undefined",
+      "children" : [ {
+        "name" : "add product with existing name",
+        "uid" : "71cab33ba8b1b077",
+        "parentUid" : "48fdb268513cfa15bdce9aee2c31543b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1537508774199,
+          "stop" : 1537508785790,
+          "duration" : 11591
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "48fdb268513cfa15bdce9aee2c31543b"
+    }, {
+      "name" : "Failed: Wait timed out after 20001ms",
+      "children" : [ {
+        "name" : "cancel adding new product",
+        "uid" : "549911d30b118ccb",
+        "parentUid" : "3e3bfa14e7c1e749735128f5bd83b7e9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1537508785790,
+          "stop" : 1537508817111,
+          "duration" : 31321
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3e3bfa14e7c1e749735128f5bd83b7e9"
+    }, {
+      "name" : "Failed: Wait timed out after 15010ms",
+      "children" : [ {
+        "name" : "delete product",
+        "uid" : "994e29ef7a82110e",
+        "parentUid" : "82b011fefcb82d5bf509dcfb7e75b88d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1537508817111,
+          "stop" : 1537508844196,
+          "duration" : 27085
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "82b011fefcb82d5bf509dcfb7e75b88d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

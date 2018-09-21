@@ -1,0 +1,106 @@
+{
+  "uid" : "823ca396f60985f8",
+  "name" : "login as admin",
+  "fullName" : "login suite.login as admin",
+  "historyId" : "2558e53582a0cedca7ed10cdd2993fd1",
+  "time" : {
+    "start" : 1537508687374,
+    "stop" : 1537508703825,
+    "duration" : 16451
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click login button",
+      "time" : {
+        "start" : 1537508699225,
+        "stop" : 1537508699408,
+        "duration" : 183
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Enter email \"${email}\" and password \"$(pass)\"",
+      "time" : {
+        "start" : 1537508699408,
+        "stop" : 1537508699820,
+        "duration" : 412
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click sign in button",
+        "time" : {
+          "start" : 1537508699711,
+          "stop" : 1537508699820,
+          "duration" : 109
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "293d0da48d4edb50",
+      "name" : "Screenshot",
+      "source" : "293d0da48d4edb50.png",
+      "type" : "image/png",
+      "size" : 3610
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "login suite"
+  }, {
+    "name" : "testClass",
+    "value" : "login suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "login as admin"
+  }, {
+    "name" : "package",
+    "value" : "login suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "823ca396f60985f8.json",
+  "parameterValues" : [ ]
+}

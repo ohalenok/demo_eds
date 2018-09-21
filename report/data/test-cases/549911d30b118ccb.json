@@ -1,0 +1,144 @@
+{
+  "uid" : "549911d30b118ccb",
+  "name" : "cancel adding new product",
+  "fullName" : "new product.cancel adding new product",
+  "historyId" : "153eac26cb24cb5dba6a54d2dcc68136",
+  "time" : {
+    "start" : 1537508785790,
+    "stop" : 1537508817111,
+    "duration" : 31321
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Failed: Wait timed out after 20001ms",
+  "statusTrace" : "TimeoutError: Wait timed out after 20001ms\n                    at D:\\javascript\\demo_eds\\node_modules\\selenium-webdriver\\lib\\promise.js:2201:17\n                    at <anonymous>\n                    at process._tickCallback (internal/process/next_tick.js:188:7)\n                From asynchronous test: \n                Error\n                    at Suite.<anonymous> (D:\\javascript\\demo_eds\\tests\\demo_test8.js:5:5)\n                    at addSpecsToSuite (D:\\javascript\\demo_eds\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n                    at Env.describe (D:\\javascript\\demo_eds\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n                    at describe (D:\\javascript\\demo_eds\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n                    at Object.<anonymous> (D:\\javascript\\demo_eds\\tests\\demo_test8.js:3:1)\n                    at Module._compile (module.js:652:30)\n                    at Object.Module._extensions..js (module.js:663:10)\n                    at Module.load (module.js:565:32)\n                    at tryModuleLoad (module.js:505:12)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Failed: Wait timed out after 20001ms",
+    "statusTrace" : "TimeoutError: Wait timed out after 20001ms\n                    at D:\\javascript\\demo_eds\\node_modules\\selenium-webdriver\\lib\\promise.js:2201:17\n                    at <anonymous>\n                    at process._tickCallback (internal/process/next_tick.js:188:7)\n                From asynchronous test: \n                Error\n                    at Suite.<anonymous> (D:\\javascript\\demo_eds\\tests\\demo_test8.js:5:5)\n                    at addSpecsToSuite (D:\\javascript\\demo_eds\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n                    at Env.describe (D:\\javascript\\demo_eds\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n                    at describe (D:\\javascript\\demo_eds\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n                    at Object.<anonymous> (D:\\javascript\\demo_eds\\tests\\demo_test8.js:3:1)\n                    at Module._compile (module.js:652:30)\n                    at Object.Module._extensions..js (module.js:663:10)\n                    at Module.load (module.js:565:32)\n                    at tryModuleLoad (module.js:505:12)",
+    "steps" : [ {
+      "name" : "Click login button",
+      "time" : {
+        "start" : 1537508790384,
+        "stop" : 1537508790538,
+        "duration" : 154
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Enter email \"${email}\" and password \"$(pass)\"",
+      "time" : {
+        "start" : 1537508790538,
+        "stop" : 1537508790934,
+        "duration" : 396
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click sign in button",
+        "time" : {
+          "start" : 1537508790831,
+          "stop" : 1537508790934,
+          "duration" : 103
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "click Add Product",
+      "time" : {
+        "start" : 1537508793891,
+        "stop" : 1537508794064,
+        "duration" : 173
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "cancel product creating",
+      "time" : {
+        "start" : 1537508794065,
+        "stop" : 1537508814066,
+        "duration" : 20001
+      },
+      "status" : "broken",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "6aa51239dd6cfb7d",
+      "name" : "Screenshot",
+      "source" : "6aa51239dd6cfb7d.png",
+      "type" : "image/png",
+      "size" : 3610
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "new product"
+  }, {
+    "name" : "testClass",
+    "value" : "new product"
+  }, {
+    "name" : "testMethod",
+    "value" : "cancel adding new product"
+  }, {
+    "name" : "package",
+    "value" : "new product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "549911d30b118ccb.json",
+  "parameterValues" : [ ]
+}

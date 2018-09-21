@@ -1,0 +1,144 @@
+{
+  "uid" : "71cab33ba8b1b077",
+  "name" : "add product with existing name",
+  "fullName" : "new product.add product with existing name",
+  "historyId" : "7eec773c2aff6fa96da103bbeff64e94",
+  "time" : {
+    "start" : 1537508774199,
+    "stop" : 1537508785790,
+    "duration" : 11591
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Failed: each key must be a number of string; got undefined",
+  "statusTrace" : "TypeError: each key must be a number of string; got undefined\n                    at keys.forEach.key (D:\\javascript\\demo_eds\\node_modules\\selenium-webdriver\\lib\\webdriver.js:2162:21)\n                    at Array.forEach (<anonymous>)\n                    at Promise.all.then.keys (D:\\javascript\\demo_eds\\node_modules\\selenium-webdriver\\lib\\webdriver.js:2157:16)\n                    at <anonymous>\n                    at process._tickCallback (internal/process/next_tick.js:188:7)Error\n                    at ElementArrayFinder.applyAction_ (D:\\javascript\\demo_eds\\node_modules\\protractor\\built\\element.js:459:27)\n                    at ElementArrayFinder.(anonymous function).args [as sendKeys] (D:\\javascript\\demo_eds\\node_modules\\protractor\\built\\element.js:91:29)\n                    at ElementFinder.(anonymous function).args [as sendKeys] (D:\\javascript\\demo_eds\\node_modules\\protractor\\built\\element.js:831:22)\n                    at allure.createStep (D:\\javascript\\demo_eds\\page_objects\\newProduct_page.js:85:48)\n                    at <anonymous>\n                    at process._tickCallback (internal/process/next_tick.js:188:7)\n                From asynchronous test: \n                Error\n                    at Suite.<anonymous> (D:\\javascript\\demo_eds\\tests\\demo_test7.js:5:5)\n                    at addSpecsToSuite (D:\\javascript\\demo_eds\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n                    at Env.describe (D:\\javascript\\demo_eds\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n                    at describe (D:\\javascript\\demo_eds\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n                    at Object.<anonymous> (D:\\javascript\\demo_eds\\tests\\demo_test7.js:3:1)\n                    at Module._compile (module.js:652:30)\n                    at Object.Module._extensions..js (module.js:663:10)\n                    at Module.load (module.js:565:32)\n                    at tryModuleLoad (module.js:505:12)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Failed: each key must be a number of string; got undefined",
+    "statusTrace" : "TypeError: each key must be a number of string; got undefined\n                    at keys.forEach.key (D:\\javascript\\demo_eds\\node_modules\\selenium-webdriver\\lib\\webdriver.js:2162:21)\n                    at Array.forEach (<anonymous>)\n                    at Promise.all.then.keys (D:\\javascript\\demo_eds\\node_modules\\selenium-webdriver\\lib\\webdriver.js:2157:16)\n                    at <anonymous>\n                    at process._tickCallback (internal/process/next_tick.js:188:7)Error\n                    at ElementArrayFinder.applyAction_ (D:\\javascript\\demo_eds\\node_modules\\protractor\\built\\element.js:459:27)\n                    at ElementArrayFinder.(anonymous function).args [as sendKeys] (D:\\javascript\\demo_eds\\node_modules\\protractor\\built\\element.js:91:29)\n                    at ElementFinder.(anonymous function).args [as sendKeys] (D:\\javascript\\demo_eds\\node_modules\\protractor\\built\\element.js:831:22)\n                    at allure.createStep (D:\\javascript\\demo_eds\\page_objects\\newProduct_page.js:85:48)\n                    at <anonymous>\n                    at process._tickCallback (internal/process/next_tick.js:188:7)\n                From asynchronous test: \n                Error\n                    at Suite.<anonymous> (D:\\javascript\\demo_eds\\tests\\demo_test7.js:5:5)\n                    at addSpecsToSuite (D:\\javascript\\demo_eds\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n                    at Env.describe (D:\\javascript\\demo_eds\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n                    at describe (D:\\javascript\\demo_eds\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n                    at Object.<anonymous> (D:\\javascript\\demo_eds\\tests\\demo_test7.js:3:1)\n                    at Module._compile (module.js:652:30)\n                    at Object.Module._extensions..js (module.js:663:10)\n                    at Module.load (module.js:565:32)\n                    at tryModuleLoad (module.js:505:12)",
+    "steps" : [ {
+      "name" : "Click login button",
+      "time" : {
+        "start" : 1537508778848,
+        "stop" : 1537508778977,
+        "duration" : 129
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Enter email \"${email}\" and password \"$(pass)\"",
+      "time" : {
+        "start" : 1537508778977,
+        "stop" : 1537508779422,
+        "duration" : 445
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click sign in button",
+        "time" : {
+          "start" : 1537508779320,
+          "stop" : 1537508779422,
+          "duration" : 102
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "click Add Product",
+      "time" : {
+        "start" : 1537508781850,
+        "stop" : 1537508782152,
+        "duration" : 302
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "create new product",
+      "time" : {
+        "start" : 1537508782359,
+        "stop" : 1537508782823,
+        "duration" : 464
+      },
+      "status" : "broken",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "27b4d96701aef076",
+      "name" : "Screenshot",
+      "source" : "27b4d96701aef076.png",
+      "type" : "image/png",
+      "size" : 3610
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "new product"
+  }, {
+    "name" : "testClass",
+    "value" : "new product"
+  }, {
+    "name" : "testMethod",
+    "value" : "add product with existing name"
+  }, {
+    "name" : "package",
+    "value" : "new product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "71cab33ba8b1b077.json",
+  "parameterValues" : [ ]
+}
